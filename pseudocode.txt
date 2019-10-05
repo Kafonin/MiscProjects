@@ -1,0 +1,36 @@
+####################HEADER FILES####################
+Program  includes two header files.
+--iostream
+--iomanip
+
+####################VARIABLES####################
+Need varibles will include
+--int for user choice of gas
+--int for seconds traveled
+--double to store result of math operation
+
+###################PROGRAM START################
+Prompt user with a list of options.
+--cout << Gas1\nGas2\nGas3\nGas4\n
+
+
+####################IF/ELSE####################
+--user chooses an option
+If/else branch will execute based on the choice,
+leaving the seconds to be prompted in the branch itself.
+
+--cout << How many seconds?
+--cin >> seconds
+Math operation performed and is stored in a variable to make manipulation easier.
+
+--result = this * that
+Result and the Seconds Variable are manipulated into having a decimal place with set precision.
+
+--cout << "A sound wave travels " ... meters ... " in " ... seconds
+This displays for every result
+
+####################END OF IF/ELSE####################
+Return Zero;
+
+####################END PROGRAM####################
+
